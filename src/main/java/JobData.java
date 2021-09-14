@@ -100,7 +100,6 @@ public class JobData {
 
         for (HashMap<String, String> job : allJobs) {
             for (Map.Entry <String, String> listJobs : job.entrySet()) {
-//                System.out.println(listJobs.getKey() + ": " + listJobs.getValue());
                 if (listJobs.getValue().toLowerCase().contains(value.toLowerCase())) {
                     jobs.add(job);
                     break;
